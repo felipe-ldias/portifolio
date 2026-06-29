@@ -1,0 +1,26 @@
+.header-js {
+    display: flex;
+    max-width: 100%;
+    background: var(--color-background1);
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.main_menu {
+    display: flex;
+    padding: var(--small-space);
+    font-size: medium;
+}
+
+.menu_links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.menu_links a {
+    color: var(--color-text);
+    font-family: var(--font-ui);
+}

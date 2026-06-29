@@ -1,0 +1,6 @@
+@import "base/reset.css";
+@import "base/varia.css";
+
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "layout/main.css";

@@ -1,0 +1,18 @@
+:root {
+  --color-highlight: #fff38865;
+  --color-text: #2B2B2B;
+  --color-background: #ffd8b8;
+  --color-background1: #ff7300;
+  --color-background2: #ff730036;
+  
+  --font-main: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  --fonte-ui: 'Arial', 'Helvetica', sans-serif;
+  
+  --small-space: 6px;
+  --medium-space: 10px;
+  --large-space: 15px;
+  --xg-space: 30px;
+
+  --radius: 6px;
+}
