@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../components/CSS/style.css" />
+    <link rel="stylesheet" href="../components/CSS/maincard.css" />
+    <title>Meus Projetos - Portfólio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../components/javascript/headerbar.js" defer></script>
+    <script src="../components/javascript/footerbar.js" defer></script>
+    
+    <script src="../components/javascript/projetos.js" defer></script>
+  </head>
 
-  <script src="/components/javascript/headerbar.js" defer></script>
-  <script src="/components/javascript/footerbar.js" defer></script>
+  <body>
+    <header-bar></header-bar>
 
-  <title>Projetos</title>
+    <div class="container_main">
+      <main class="main">
+        <h1 class="title" style="margin-bottom: var(--large-space);">Meus Projetos</h1>
 
-</head>
+        <div id="github-projects" class="projects_container">
+          <p style="color: var(--color-text-light);">A carregar projetos do GitHub...</p>
+        </div>
+      </main>
+    </div>
 
-<body>
-
-  <header-bar></header-bar>
-
-
-
-  <footer-bar></footer-bar>
-  
-</body>
-
+    <footer-bar></footer-bar>
+  </body>
 </html>
