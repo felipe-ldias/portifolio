@@ -1,40 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../components/CSS/style.css" />
+    <title>Portifólio</title>
 
-<head>
-  
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../components/CSS/style.css">
-  <title>Portifólio</title>
-  
-  <script src="/components/javascript/headerbar.js" defer></script>
-  <script src="/components/javascript/footerbar.js" defer></script>
-  
-</head>
+    <script src="/components/javascript/headerbar.js" defer></script>
+    <script src="/components/javascript/footerbar.js" defer></script>
+    <script src="/components/javascript/maincard.js" defer></script>
+  </head>
 
-<body>
+  <body>
     <header-bar></header-bar>
 
     <div class="container_main">
-        
-        <aside class="side_menu">
-            <h3>Projects</h3>
-            <div class="links_menu">
-                <a href="/">Site Portifólio</a>
-                <a href="/">Jogo da Memória</a>
-                <a href="/">Teste</a>
+      <main class="main">
+        <div class="main_card course_card">
+          <div class="info_section">
+            <h2 class="title">Sobre a Mim</h2>
+
+            <div class="course_t">
+              <h3>Apresentação</h3>
+              <p>
+                Me chamo Felipe Lincho Dias, tenho 37 anos.
+              </p>
+              <p>Atualmente trabalho na empresa Ibéria Embalagens como tercerizado, estou fazendo um curso
+                de Dev Full Stack Junior do programa +praTI.
+              </p>
             </div>
 
-        </aside>
+            <div class="course_t">
+              <h3>O que é o +praTI?</h3>
+              <p>
+                É um movimento voluntário que capacita novos talentos para a
+                economia digital, oferecendo formação técnica gratuita de alta
+                qualidade e conexão direta com o mercado tech.
+              </p>
+            </div>
 
-        <main class="main">
-            <section class="project"><h2>Meus Projetos</h2></section>
-        </main>
+            <div class="course_t">
+              <h3>Cronograma da Trilha Full Stack</h3>
+              <p>O curso segue um cronograma estruturado em etapas práticas:</p>
+              <p class="phase">
+                <strong>• Fase 1 (Frontend):</strong> Fundamentos, Git/GitHub,
+                HTML5, CSS3 e JavaScript.
+              </p>
+              <p class="phase">
+                <strong>• Fase 2 (Backend):</strong> Programação em Java e
+                criação de APIs modernas com Spring Boot.
+              </p>
+              <p class="phase">
+                <strong>• Fase 3 (Banco de Dados):</strong> Modelagem e
+                persistência de dados com SQL e MySQL.
+              </p>
+            </div>
 
+            <div class="course_t">
+              <h3>Competências Adquiridas</h3>
+              <p>
+                Desenvolvimento de lógica de programação sólida, versionamento
+                de projetos, criação de sistemas de ponta a ponta e
+                aprimoramento de soft skills na comunidade do programa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <main-card></main-card>
+      </main>
     </div>
 
     <footer-bar></footer-bar>
-</body>
-
+  </body>
 </html>

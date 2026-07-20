@@ -1,9 +1,13 @@
 .header-js {
     display: flex;
-    max-width: 100%;
-    background: var(--color-background1);
+    background: var(--color-background);
     justify-content: center;
-    position: sticky;
+    padding: var(--medium-space);
+    margin-bottom: var(--small-space);
+    margin-top: var(--small-space);
+    position: fixed;
+    width: 100%;
+    left: 0;
     top: 0;
     z-index: 999;
 }
@@ -15,12 +19,20 @@
 }
 
 .menu_links {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
 }
 
 .menu_links a {
-    color: var(--color-text);
-    font-family: var(--font-ui);
+    color: var(--color-text-light);
+    font-family: var(--font-main);
+    transition: color 0.3s ease;
+}
+
+.menu_links a:hover {
+    color: var(--color-highlight);
 }

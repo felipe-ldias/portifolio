@@ -1,0 +1,103 @@
+main-card, .course_card {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto var(--xg-space) auto;
+}
+
+.course_card h3 {
+    color: var(--color-highlight);
+    font-size: 1.2rem;
+    margin-top: var(--medium-space);
+    margin-bottom: var(--small-space);
+    text-align: left;
+}
+
+.course_card p {
+    color: var(--color-text-light);
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0; 
+}
+
+.course_card .phase strong {
+    color: var(--color-text);
+    margin-top: var(--small-space);
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.course_t {
+    margin-bottom: var(--large-space);
+}
+
+.course_t:last-child {
+    margin-bottom: 0;
+}
+
+.main_card {
+    padding: var(--xg-space);
+    max-width: 600px;
+    background-color: var(--color-background1);
+    border-radius: var(--radius);
+    display: flex;
+    gap: var(--xg-space);
+    flex-direction: column;
+}
+
+.info_section, .contact_form {
+    min-width: 280px;
+}
+
+.info_section, .title {
+    font-family: var(--font-main);
+    color: var(--color-text);
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form_card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--small-space);
+    margin-bottom: var(--medium-space);
+}
+
+.form_card label {
+    font-family: var(--font-main);
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.form_card input, .form_card textarea {
+    width: 100%;
+    background-color: var(--color-background);
+    border: 1px solid #444;
+    border-radius: var(--radius);
+    color: var(--color-text);
+    padding: var(--medium-space);
+    transition: border-color 0.3s;
+    font-family: inherit;
+}
+
+.form_card input:focus, .form_card textarea:focus {
+    outline: none;
+    border-color: var(--color-highlight);
+}
+
+.bton-submit {
+    width: 100%;
+    padding: var(--medium-space);
+    background-color: var(--color-highlight);
+    color: var(--color-text);
+    border: none;
+    border-radius: var(--radius);
+    font-family: var(--font-main);
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

@@ -1,12 +1,14 @@
 .footer-js {
-display: block;
-background: var(--color-background1);
-padding: var(--small-space);
-justify-items: center;
+display: flex;
+background: var(--color-background);
+padding: var(--large-space);
+justify-content: center;
 }
 
 .footer-main {
     display: flex;
     font-size: small;
-    font-family: var(--font-ui);
+    font-family: var(--font-main);
+    color: var(--color-text-light);
+    align-items: center;
 }
